@@ -3,6 +3,7 @@
 A fully functional Discord Rich Presence plugin updated and tested for **Unreal Engine 5.8**.
 
 Fork From [LouisRaverdy](https://github.com/LouisRaverdy/DiscordRPC)
+
 [![Download](https://img.shields.io/github/v/release/TicianoDev/DiscordRPC-5.8?style=for-the-badge&label=Download&color=blue)](https://github.com/TicianoDev/DiscordRPC-5.8/releases/latest)
 
 ---
