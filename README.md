@@ -1,11 +1,41 @@
+# Discord RPC for Unreal Engine 5.8
+
+A fully functional Discord Rich Presence plugin updated and tested for **Unreal Engine 5.8**.
+
+Fork From [LouisRaverdy](https://github.com/LouisRaverdy/DiscordRPC)
+
+---
+
 ## Installation
 
-1) Dowload this repostory
-2) Extract the repo
-3) Copy all content to your plugin project (YourProject/Plugins)
-4) Make sure you are register on [Discord developer website](https://discord.com/developers/applications  "Discord Developer Website")
-5) Create your application and copy your Application ID
-6) Open your project and enable the plugin
+1. Download or clone this repository.
+2. Copy the entire `DiscordRpc` folder into your Unreal Engine installation's Plugins directory:
+
+```
+C:\Program Files\Epic Games\UE_5.8\Engine\Plugins\
+```
+
+(Or the equivalent path if you installed Unreal in a different location)
+
+Final structure should look like this:
+
+```
+UE_5.8/
+└── Engine/
+    └── Plugins/
+        └── DiscordRpc/
+            ├── DiscordRpc.uplugin
+            ├── Source/
+            └── ...
+```
+
+3. Restart the Unreal Editor (or open it if it was closed).
+4. Go to **Edit → Plugins**, search for **Discord RPC** and enable it.
+5. Restart the editor when prompted.
+
+The plugin will now be available in all your Unreal Engine 5.8 projects.
+
+---
 
 ## Initialization
 
